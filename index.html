@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roman Urdu Jokes API</title>
 </head>
 <body>
-    <h2>Roman Urdu Jokes</h2>
+
+<script>
+const jokes = [
+  "Teacher: Tum itni der se kyu so rahe ho? Student: Dream mein exam de raha tha.",
+  "Pati: Tum mujhe samajhti nahi? Patni: Samajh rahi hoon, magar ignore kar rahi hoon.",
+  "Doctor: Smoking chhod do. Patient: Chhodo ge? Kal se ya abhi se?",
+  "Baba: Beta, sehat ka khayal rakho. Beta: Baba, diet start kal se karunga.",
+  "Friend 1: Kal movie chalni hai? Friend 2: Chalenge, bas popcorn khatam nahi hua."
+];
+
+function getRandomJoke() {
+  const index = Math.floor(Math.random() * jokes.length);
+  return jokes[index];
+}
+
+</script>
 </body>
 </html>
