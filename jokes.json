@@ -1,6 +1,4 @@
-[
-  {"id": 1, "joke": "Teacher: Tum itni der se kyu so rahe ho? Student: Dream mein exam de raha tha."},
-  {"id": 2, "joke": "Pati: Tum mujhe samajhti nahi? Patni: Samajh rahi hoon, samajh rahi hoon… magar ignore kar rahi hoon."},
-  {"id": 3, "joke": "Doctor: Smoking chhod do. Patient: Chhodo ge? Kal se ya abhi se?"}
-  
-]
+{
+  "joke": "Teacher: Tum itni der se kyu so rahe ho? Student: Dream mein exam de raha tha."
+}
+
